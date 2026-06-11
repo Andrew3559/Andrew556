@@ -41,6 +41,6 @@ int add(int a, int b) {
     return a + b;
 }
 
-// Luke B was Here !!!!
-// Your friend 
-// The one and amazing
+// THis is Luke B editing Andrew's code
+// Hi 
+// U 
