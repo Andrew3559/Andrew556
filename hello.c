@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-typedef struct {
+tYpedef struct {
     char name[32];
     int age;
 } person;
+
 int add(int a, int b);
 
 int main(void) 
@@ -25,8 +26,8 @@ int main(void)
     for (int i = 0; i < 20; i++) {
         printf("data[%d] = %d\n", i, data[i]);
     }
-
-    printf("person name = %s\n", sue.name);
+ 
+     printf("person name = %s\n", sue.name);
     printf("person age = %d\n", sue.age);
 
     free(data);
@@ -40,3 +41,6 @@ int add(int a, int b) {
     return a + b;
 }
 
+// THis is Luke B editing Andrew's code
+// Hi 
+// U 
